@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function Media() {
   const mediaList = [
     {
-      title: "代码",
-      linkText: "Github",
-      link: "https://github.com/"
+      title: "联系技术",
+      linkText: "Github Mail",
+      link: "mailto:wisepaas@outlook.com"
     }
   ];
 
@@ -17,7 +17,7 @@ export default function Media() {
           return (
             <div
               key={title}
-              className=" flex items-center gap-2 text-xl"
+              className=" flex items-center gap-2"
             >
               <span>{title}:</span>
               <Box
@@ -36,7 +36,7 @@ export default function Media() {
       </div>
 
       <div className=" text-center">
-        打赏地址☕️: 0xa2d596fbd6a4503d299657f33e7a1d2e605b30c3
+        ETH打赏地址☕️: 0xa2d596fbd6a4503d299657f33e7a1d2e605b30c3
       </div>
     </div >
   );
